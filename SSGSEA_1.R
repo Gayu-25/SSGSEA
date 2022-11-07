@@ -71,7 +71,7 @@ data = readRDS("input1.rds")
 data[1:5,1:5]
 data = as.matrix(data)
 
-gene_set = read.csv("markers2Sep.csv")
+gene_set = read.csv("D:/MSc Bioinformatics/Sem3/Cancer genomics/markers2Sep.csv")
 head(gene_set)
 
 gene_sets = as.list(as.data.frame(gene_set))
